@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HDI Predictor</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-wrap">
+        <aside class="sidebar">
+            <div class="brand">SKILL WALLET</div>
+            <nav>
+                <a href="/" class="active">Home</a>
+                <a href="/Prediction">Prediction</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="header">
+                <h1>Human Development Index</h1>
+                <a class="btn" href="/Prediction">Predict</a>
+            </div>
+
+            <div class="card">
+                <div class="hero">
+                    <div class="hero-left">
+                        <h2 style="color:#dbeafe;">A Comprehensive Measure of Well-Being</h2>
+                        <p style="color:#bcd7ff;">The Human Development Index (HDI) is a composite statistic of life expectancy, education, and per capita income indicators. Use this tool to estimate HDI from three development indicators.</p>
+                        <p class="footer-note">Enter realistic values on the prediction page — the model expects typical national ranges.</p>
+                    </div>
+                    <div class="hero-right">
+                        <div class="card" style="padding:18px;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.05));border-radius:12px;">
+                            <h3 style="color:#fff;margin:0">Quick Steps</h3>
+                            <ol style="color:#cfe6ff;text-align:left;margin-top:8px">
+                                <li>Click Predict</li>
+                                <li>Enter Life Expectancy</li>
+                                <li>Enter Mean & Expected Years of Schooling</li>
+                                <li>View result</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

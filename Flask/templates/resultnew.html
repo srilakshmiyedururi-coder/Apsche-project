@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-wrap">
+        <aside class="sidebar">
+            <div class="brand">SKILL WALLET</div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/Prediction" class="active">Prediction</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="header">
+                <h1>Result</h1>
+                <a class="btn" href="/Prediction">New Prediction</a>
+            </div>
+
+            <div class="card result-card">
+                <div class="result-title">Human Development Index</div>
+                <div class="result-value">{{ prediction_text }}</div>
+                <div class="footer-note">This is an approximate prediction from the trained model.</div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
