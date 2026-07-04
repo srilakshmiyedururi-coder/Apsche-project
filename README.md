@@ -46,7 +46,7 @@ A Flask web application for predicting the Human Development Index (HDI) from de
    ```bash
    cd Flask
    gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/apsche-ai
-   gcloud run deploy apsche-ai --image gcr.io/YOUR_PROJECT_ID/apsche-ai --platform managed --region us-central1 --allow-unauthenticated --port 8080
+   gcloud run deploy apsche-ai --image gcr.io/YOUR_PROJECT_ID/apsche-ai --platform managed --region us-central1 --allow-unauthenticated
    ```
 3. When deployment finishes, Cloud Run will give you a public URL.
 

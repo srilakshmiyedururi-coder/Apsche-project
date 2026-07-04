@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request
@@ -53,4 +54,5 @@ def predict():
         return render_template('resultnew.html', prediction_text='The given values do not match the range of values: ' + str(y_pred))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
