@@ -34,3 +34,24 @@ A Flask web application for predicting the Human Development Index (HDI) from de
   - `MeanYearsSchooling`
   - `ExpectedYearsSchooling`
   - `GNI perCapita`
+
+## Deploy to Google Cloud Run
+
+1. Install and authenticate Google Cloud SDK:
+   ```bash
+   gcloud auth login
+   gcloud config set project YOUR_PROJECT_ID
+   ```
+2. Build the container and deploy from the `Flask` folder:
+   ```bash
+   cd Flask
+   gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/apsche-ai
+   gcloud run deploy apsche-ai --image gcr.io/YOUR_PROJECT_ID/apsche-ai --platform managed --region us-central1 --allow-unauthenticated --port 8080
+   ```
+3. When deployment finishes, Cloud Run will give you a public URL.
+
+### Important Cloud Run notes
+
+- Cloud Run uses port `8080` by default, so `Flask/app.py` should run on port `8080`.
+- If Cloud Run returns a URL, anyone can open it.
+- Replace `YOUR_PROJECT_ID` with your actual Google Cloud project ID.
