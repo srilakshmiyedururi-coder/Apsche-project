@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+desktop.ini
+
+# Ignore Python environment settings
+pip-log.txt
+
+# Ignore database and binary artifacts by default
+*.sqlite3
+*.db
+*.pkl
+*.h5
+
+# Ignore sample API keys/settings
+.env
