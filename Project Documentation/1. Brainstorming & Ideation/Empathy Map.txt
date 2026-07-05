@@ -1,0 +1,22 @@
+Empathy Map
+===========
+
+User Type: Students, researchers, and beginners exploring machine learning applications.
+
+What they think:
+- They need a simple and practical project.
+- They want to understand how machine learning works in a real-world context.
+
+What they feel:
+- Interested in data science and web applications.
+- Concerned about complexity and implementation difficulty.
+
+What they do:
+- Search for easy-to-follow projects.
+- Try small machine learning applications.
+- Learn from practical examples.
+
+What they need:
+- An understandable workflow.
+- A simple interface.
+- Clear prediction results.

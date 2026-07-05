@@ -1,0 +1,10 @@
+Submission Checklist
+====================
+
+- Project folder is organized according to the documentation guide.
+- Source code is placed in the Source Code folder.
+- Dataset is placed in the Dataset folder.
+- Model file is placed in the Models folder.
+- Templates and static assets are placed in the Templates and Static folders.
+- Documentation files are placed in the Project Documentation folder.
+- README file is updated with project instructions.

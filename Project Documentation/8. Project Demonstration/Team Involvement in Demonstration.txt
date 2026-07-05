@@ -1,0 +1,10 @@
+Team Involvement in Demonstration
+================================
+
+Each team member can contribute by presenting a different aspect of the project:
+- one member explains the problem statement and solution
+- one member explains the model and implementation
+- one member explains the project structure and documentation
+- one member handles the live demonstration of the application
+
+This helps present the project in a clear and professional way.

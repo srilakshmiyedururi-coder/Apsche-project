@@ -1,0 +1,11 @@
+Coding & Solution
+=================
+
+The solution was implemented using Flask routes to manage the user interface and prediction flow.
+
+Main implementation steps:
+- Create the home page and prediction page templates.
+- Collect input values from the form.
+- Convert the values into a DataFrame.
+- Load the trained model.
+- Return the predicted HDI result.

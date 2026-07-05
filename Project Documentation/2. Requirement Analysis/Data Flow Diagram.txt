@@ -1,0 +1,8 @@
+Data Flow Diagram
+=================
+
+1. User enters input values in the web form.
+2. Flask receives the form data through HTTP POST request.
+3. The input values are converted into a DataFrame.
+4. The trained model predicts the HDI result.
+5. The result is rendered back to the user on the result page.

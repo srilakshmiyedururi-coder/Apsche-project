@@ -1,0 +1,13 @@
+Project Summary
+===============
+
+Project Name: Human Development Index Prediction
+
+Objective:
+Develop a web-based application that predicts the Human Development Index (HDI) using development-related indicators such as life expectancy, years of schooling, and GNI per capita.
+
+Problem Statement:
+Many policymakers and researchers need quick insights into a country's development level. A predictive model can support early analysis and decision-making.
+
+Solution Idea:
+Build a Flask-based web app that accepts user input, uses a trained machine learning model, and outputs an HDI category along with a predicted value.

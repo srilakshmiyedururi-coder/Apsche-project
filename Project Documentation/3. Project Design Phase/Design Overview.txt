@@ -1,0 +1,15 @@
+Project Design Overview
+=======================
+
+Architecture:
+The application uses a simple three-tier structure:
+1. User Interface: HTML templates rendered by Flask.
+2. Application Logic: Python code that processes input and invokes the model.
+3. Model Layer: A pre-trained pickle model stored in the Models folder.
+
+Flow:
+- User enters development indicators on the web form.
+- Flask receives the form data.
+- The application transforms the inputs into a DataFrame.
+- The trained model predicts the HDI score.
+- The result is displayed on the webpage.

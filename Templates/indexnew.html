@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDI Prediction Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-wrap">
+        <aside class="sidebar">
+            <div class="brand">SKILL WALLET</div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/Prediction" class="active">Prediction</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="header">
+                <h1>Predict HDI</h1>
+                <a class="btn" href="/">Home</a>
+            </div>
+
+            <div class="card form-card">
+                <form action="/predict" method="post">
+                    <div class="form-row">
+                        <div style="flex:1">
+                            <label class="form-label">Life Expectancy</label>
+                            <input class="input" type="number" step="any" name="LifeExpectancy" placeholder="Enter life expectancy (e.g. 72.4)" required>
+                        </div>
+                        <div style="flex:1">
+                            <label class="form-label">Mean Years of Schooling</label>
+                            <input class="input" type="number" step="any" name="MeanYearsSchooling" placeholder="Enter mean years (e.g. 8.2)" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row" style="margin-top:14px">
+                        <div style="flex:1">
+                            <label class="form-label">Expected Years of Schooling</label>
+                            <input class="input" type="number" step="any" name="ExpectedYearsSchooling" placeholder="Enter expected years (e.g. 12.1)" required>
+                        </div>
+                        <div style="flex:1">
+                            <label class="form-label">GNI per Capita</label>
+                            <input class="input" type="number" step="any" name="GNI perCapita" placeholder="Enter GNI per capita (e.g. 12000)" required>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:18px">
+                        <button class="submit-btn" type="submit">Predict</button>
+                    </div>
+                </form>
+
+                <div class="footer-note">Use realistic national-level values for best results.</div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

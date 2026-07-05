@@ -1,0 +1,9 @@
+Communication
+=============
+
+During the demonstration, the project can be presented as a practical machine learning application that combines:
+- data-driven prediction
+- a simple web interface
+- clear and understandable results
+
+The presenter should explain the workflow from input to prediction and highlight the project's educational and practical value.

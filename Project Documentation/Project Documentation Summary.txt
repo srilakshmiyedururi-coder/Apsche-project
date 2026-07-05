@@ -1,0 +1,18 @@
+Project Documentation Summary
+============================
+
+Project Name: Human Development Index Prediction
+
+This folder contains the complete internship documentation structure for the project.
+
+Included sections:
+- Brainstorming and Ideation
+- Requirement Analysis
+- Project Design Phase
+- Project Planning Phase
+- Project Development Phase
+- Project Testing
+- Project Documentation
+- Project Demonstration
+
+The documentation is organized following the instructions provided in the project folder documentation guide.

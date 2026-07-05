@@ -1,0 +1,19 @@
+Requirement Analysis
+====================
+
+Functional Requirements:
+- The system should accept four input values from the user.
+- The system should predict the HDI score using a trained machine learning model.
+- The system should display the predicted HDI category and score.
+
+Non-Functional Requirements:
+- The app should be easy to use through a web interface.
+- The system should run efficiently on a local machine.
+- The app should be easy to deploy using Flask.
+
+Technologies Used:
+- Python
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn

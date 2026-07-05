@@ -1,0 +1,14 @@
+Project Planning
+================
+
+Phase 1: Requirement Gathering
+Identify the project goals, target users, and required features.
+
+Phase 2: Data and Model Preparation
+Use the provided dataset and train a model for HDI prediction.
+
+Phase 3: Application Development
+Develop the Flask-based web application and connect it to the trained model.
+
+Phase 4: Testing and Documentation
+Verify the app, prepare the documentation, and organize the project folder structure.

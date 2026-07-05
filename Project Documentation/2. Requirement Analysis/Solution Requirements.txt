@@ -1,0 +1,11 @@
+Solution Requirements
+=====================
+
+The application must:
+- accept four input values from the user
+- use a trained model to predict HDI
+- display the output clearly on the web interface
+- be accessible through a browser
+- run locally using Flask
+
+The system should be simple, practical, and easy to understand for users and evaluators.

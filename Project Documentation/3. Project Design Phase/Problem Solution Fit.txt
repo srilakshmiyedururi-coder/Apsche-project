@@ -1,0 +1,10 @@
+Problem Solution Fit
+====================
+
+The project addresses the need for a simple, low-cost, and practical solution to estimate HDI values using available development indicators. The proposed Flask application is suitable because it offers an accessible interface without requiring complex setup.
+
+Why the solution fits the problem:
+- It is easy to use.
+- It delivers quick predictions.
+- It is suitable for education and demonstration purposes.
+- It can be extended in the future.

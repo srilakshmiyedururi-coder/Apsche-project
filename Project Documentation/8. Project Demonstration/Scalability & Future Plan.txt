@@ -1,0 +1,11 @@
+Scalability & Future Plan
+=========================
+
+The current project can be expanded in future versions by:
+- adding a dashboard for visual analysis
+- improving the UI and responsiveness
+- supporting more countries and datasets
+- deploying the model to a cloud platform
+- adding additional prediction features
+
+This makes the system suitable for future enhancement and real-world deployment.

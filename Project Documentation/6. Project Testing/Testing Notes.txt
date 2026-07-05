@@ -1,0 +1,13 @@
+Testing Notes
+=============
+
+Testing was performed to confirm:
+- The app starts without import errors.
+- The prediction route accepts user input.
+- The model returns a prediction result.
+- The output page renders successfully.
+
+Recommended future testing:
+- Validate with additional datasets.
+- Test performance for multiple simultaneous users.
+- Improve error handling for invalid input values.

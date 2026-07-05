@@ -1,0 +1,9 @@
+Development Notes
+=================
+
+The Flask application was implemented using modular route handling:
+- Home route for the landing page
+- Prediction route for the input form
+- Predict route for model inference and result display
+
+The trained model is loaded from the Models folder and the HTML templates are served from the Templates folder.

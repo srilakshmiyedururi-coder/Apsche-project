@@ -1,0 +1,10 @@
+Proposed Solution
+=================
+
+The proposed solution is a web application that uses a trained machine learning model to predict the Human Development Index from user-entered values. The application is built using Flask and provides a simple form-based interface.
+
+The solution includes:
+- user input form
+- backend prediction logic
+- trained model integration
+- result display page

@@ -1,0 +1,39 @@
+/* Main layout */
+:root{
+  --blue:#0d47a1;
+  --accent:#7b2ff7;
+  --muted:#f4f6fb;
+  --glass: rgba(255,255,255,0.06);
+}
+body{margin:0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background: linear-gradient(180deg,#0f1724 0%, #0b1220 60%);color:#e6eef8}
+.app-wrap{display:flex;min-height:100vh}
+/* Sidebar */
+.sidebar{width:220px;background:linear-gradient(180deg,var(--blue),#13386b);padding:28px 18px;box-shadow:2px 0 12px rgba(0,0,0,0.4)}
+.sidebar .brand{color:white;font-weight:700;font-size:20px;margin-bottom:22px}
+.sidebar nav a{display:block;color:#dbeafe;padding:10px 12px;border-radius:8px;margin:8px 0;text-decoration:none}
+.sidebar nav a.active{background:rgba(255,255,255,0.06)}
+/* Content */
+.content{flex:1;padding:40px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+.header h1{color:#fff;margin:0}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:24px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6);}
+/* Hero */
+.hero{display:flex;gap:24px;align-items:center}
+.hero .hero-left{flex:1}
+.hero .hero-right{width:420px}
+.btn{display:inline-block;padding:12px 20px;border-radius:28px;background:linear-gradient(90deg,var(--accent),#2ac7c7);color:#fff;text-decoration:none;font-weight:600}
+/* Form */
+.form-card{max-width:680px;margin-top:18px}
+.form-row{display:flex;gap:16px}
+.input{width:100%;padding:14px;border-radius:999px;border:none;background:rgba(255,255,255,0.03);color:#fff}
+.input::placeholder{color:#cfe6ff}
+.form-label{color:#cfe6ff;font-size:14px;margin-bottom:6px}
+.submit-btn{background:linear-gradient(90deg,#ff7aa2,#7b2ff7);border:none;padding:12px 20px;color:#fff;border-radius:999px;font-weight:700;cursor:pointer}
+/* Result */
+.result-card{margin-top:24px;padding:28px;border-radius:12px;background:linear-gradient(180deg,#071226 0%,#071226 60%);text-align:center}
+.result-title{color:#ff4d4d;font-size:22px;margin-bottom:10px}
+.result-value{color:#ffd166;font-size:28px;font-weight:800}
+.footer-note{margin-top:18px;color:#9fb4d9;font-size:13px}
+
+/* Responsive */
+@media (max-width:900px){.sidebar{display:none}.hero{flex-direction:column}.hero-right{width:100%}.content{padding:18px}}

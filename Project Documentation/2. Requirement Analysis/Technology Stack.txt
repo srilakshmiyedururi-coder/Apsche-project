@@ -1,0 +1,10 @@
+Technology Stack
+================
+
+Programming Language: Python
+Web Framework: Flask
+Data Handling: Pandas, NumPy
+Machine Learning: Scikit-learn
+Model Serialization: Pickle
+Frontend: HTML, CSS
+Environment: Virtual environment

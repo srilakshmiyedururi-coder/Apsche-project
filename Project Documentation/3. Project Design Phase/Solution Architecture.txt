@@ -1,0 +1,16 @@
+Solution Architecture
+====================
+
+The system follows a simple architecture:
+
+1. Frontend Layer
+   - HTML templates for the home, prediction, and result pages.
+
+2. Application Layer
+   - Flask routes handle user requests and connect the input to the model.
+
+3. Model Layer
+   - A pre-trained pickle model predicts the HDI based on the input features.
+
+4. Data Layer
+   - Input values are processed as a DataFrame and passed to the model.

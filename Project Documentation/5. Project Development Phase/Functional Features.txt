@@ -1,0 +1,9 @@
+Functional Features
+===================
+
+The application provides the following features:
+- Web form for capturing HDI-related input values
+- Prediction based on a trained machine learning model
+- Display of predicted HDI category and score
+- Simple navigation between pages
+- Easy-to-use interface for students and evaluators

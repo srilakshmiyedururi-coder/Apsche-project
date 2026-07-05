@@ -1,0 +1,10 @@
+Demonstration of Proposed Features
+=================================
+
+The demonstration should highlight the following features:
+- Home page overview of the project
+- Prediction form for entering input values
+- Backend processing using the trained model
+- Result page showing the predicted HDI category
+
+This makes the project easy to explain and understand during evaluation.

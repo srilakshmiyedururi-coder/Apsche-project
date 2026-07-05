@@ -1,0 +1,15 @@
+Performance Testing
+===================
+
+The application was tested for basic functionality and response behavior.
+
+Findings:
+- The app starts successfully without import errors.
+- The prediction form accepts input values.
+- The model returns predictions correctly.
+- The result page displays output properly.
+
+Future improvements:
+- Add input validation.
+- Improve error handling.
+- Test with more sample inputs.

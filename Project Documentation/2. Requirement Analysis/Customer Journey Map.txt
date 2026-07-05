@@ -1,0 +1,14 @@
+Customer Journey Map
+=====================
+
+Stage 1: Awareness
+The user discovers the project and understands that it predicts HDI using a simple web form.
+
+Stage 2: Interaction
+The user enters development-related values such as life expectancy, schooling years, and GNI per capita.
+
+Stage 3: Prediction
+The app processes the values using a trained model and provides a prediction.
+
+Stage 4: Result Review
+The user views the predicted HDI category and score and gains insight from the output.

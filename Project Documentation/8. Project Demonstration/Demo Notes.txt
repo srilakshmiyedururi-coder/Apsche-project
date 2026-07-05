@@ -1,0 +1,12 @@
+Demonstration Notes
+===================
+
+During the project demonstration, the following features can be highlighted:
+- User-friendly web form for entering HDI-related data.
+- Real-time prediction using a trained machine learning model.
+- Clear output showing the predicted HDI category and value.
+
+Future enhancements:
+- Add a dashboard for visualization.
+- Improve styling and responsiveness.
+- Deploy the app to a cloud platform.

@@ -1,0 +1,15 @@
+Project Documentation
+=====================
+
+This project documentation package includes the required sections for internship submission.
+
+Included content:
+- Brainstorming and ideation
+- Requirement analysis
+- Project design
+- Project planning
+- Development details
+- Testing notes
+- Demonstration notes
+
+The documentation is organized according to the provided project folder documentation guide.

@@ -1,0 +1,14 @@
+Define Problem Statement
+========================
+
+Problem Statement:
+Many individuals and organizations need a quick and efficient way to estimate a country's development status. Traditional approaches to evaluating development levels can be time-consuming and require expert interpretation.
+
+Proposed Solution:
+A machine learning-based web application can simplify this process by accepting a few input indicators and providing an HDI prediction in real time.
+
+Importance of the Solution:
+- Saves time
+- Improves accessibility
+- Supports decision-making
+- Offers a user-friendly experience
