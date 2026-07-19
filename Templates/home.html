@@ -11,15 +11,15 @@
         <aside class="sidebar">
             <div class="brand">SKILL WALLET</div>
             <nav>
-                <a href="/" class="active">Home</a>
-                <a href="/Prediction">Prediction</a>
+                <a href="{{ url_for('demo_home') }}" class="active">Home</a>
+                <a href="{{ url_for('demo_prediction') }}">Prediction</a>
             </nav>
         </aside>
 
         <main class="content">
             <div class="header">
                 <h1>Human Development Index</h1>
-                <a class="btn" href="/Prediction">Predict</a>
+                <a class="btn" href="{{ url_for('demo_prediction') }}">Predict</a>
             </div>
 
             <div class="card">
